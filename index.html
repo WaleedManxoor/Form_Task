@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Task</title>
+    <style>
+        body{
+            background-color: #002400;
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            text-align: center;
+            color: white;
+        }
+        
+        form{
+            text-align: center;
+        }
+
+        form input{
+            border-radius: 30px;
+            padding: 9px;
+        }
+        .input_container{
+            display: inline-block;
+            position: relative;
+        }
+        .icon{
+            position: absolute;
+        }
+        .input_container3{
+            border-radius: 30px;
+            padding: 9px;
+            font-size: 16px;
+            border: none;  
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>USER LOGIN</h1>
+        <br>
+        <form>
+            <article class="input_container1">
+                <i class="icon"><img src="./img/username.png" alt="" width="37"></i>
+                <input type="text" size="30" placeholder="         username">
+            </article>
+            <br>
+            <article class="input_container2">
+                <i class="icon"><img src="./img/password.png" alt="" width="30"></i>
+                <input type="text" size="30" placeholder="         password">
+            </article>
+            <article class="input_container3">
+                <input type="submit" value="LOGIN">
+            </article>
+        </form>
+    </div>
+
+
+
+    <!-- .input-container {
+        display: inline-block;
+        position: relative;
+      }
+      
+      .icon {
+        position: absolute;/* Adjust the positioning of the icon */
+        top: 50%;
+        transform: translateY(-50%);
+      } -->
+
+<!--       
+      <div class="input-container">
+        <i class="icon fas fa-user"><img src="./img/username.png" alt="" width="35"></i>
+        <input type="text" placeholder="       Username">
+    </div> -->
+      
+</body>
+</html>
